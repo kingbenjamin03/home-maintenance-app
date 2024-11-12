@@ -1,0 +1,29 @@
+2024-11-12 16:05:15.896 CST [5036] LOG:  starting PostgreSQL 14.13 (Homebrew) on aarch64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.4), 64-bit
+2024-11-12 16:05:15.897 CST [5036] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-11-12 16:05:15.897 CST [5036] LOG:  listening on IPv6 address "::1", port 5432
+2024-11-12 16:05:15.897 CST [5036] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-11-12 16:05:15.898 CST [5037] LOG:  database system was shut down at 2024-11-12 16:05:01 CST
+2024-11-12 16:05:15.901 CST [5036] LOG:  database system is ready to accept connections
+2024-11-12 16:05:54.020 CST [5072] FATAL:  role "username" does not exist
+2024-11-12 16:05:59.365 CST [5075] FATAL:  role "username" does not exist
+2024-11-12 16:11:04.160 CST [5450] FATAL:  role "username" does not exist
+2024-11-12 16:11:28.345 CST [5459] FATAL:  role "5432" does not exist
+2024-11-12 16:11:41.625 CST [5466] FATAL:  role "5432" does not exist
+2024-11-12 16:17:33.801 CST [5653] ERROR:  syntax error at or near "DATABASE" at character 16
+2024-11-12 16:17:33.801 CST [5653] STATEMENT:  EXPLAIN CREATE DATABASE home_maintenance;
+2024-11-12 16:19:36.803 CST [5713] ERROR:  syntax error at or near "DATABASE" at character 16
+2024-11-12 16:19:36.803 CST [5713] STATEMENT:  EXPLAIN CREATE DATABASE home_maintenance;
+2024-11-12 16:20:01.167 CST [5713] ERROR:  syntax error at or near "DATABASE" at character 16
+2024-11-12 16:20:01.167 CST [5713] STATEMENT:  EXPLAIN CREATE DATABASE home_maintenance;
+2024-11-12 16:20:21.748 CST [5713] ERROR:  syntax error at or near "\" at character 9
+2024-11-12 16:20:21.748 CST [5713] STATEMENT:  EXPLAIN \c postgres
+	CREATE DATABASE home_maintenance;
+2024-11-12 16:20:35.804 CST [5713] ERROR:  syntax error at or near "DATABASE" at character 16
+2024-11-12 16:20:35.804 CST [5713] STATEMENT:  EXPLAIN CREATE DATABASE home_maintenance;
+2024-11-12 16:22:42.508 CST [5802] ERROR:  syntax error at or near "DATABASE" at character 16
+2024-11-12 16:22:42.508 CST [5802] STATEMENT:  EXPLAIN CREATE DATABASE home_maintenance;
+2024-11-12 16:22:44.318 CST [5802] ERROR:  syntax error at or near "DATABASE" at character 16
+2024-11-12 16:22:44.318 CST [5802] STATEMENT:  EXPLAIN CREATE DATABASE home_maintenance;
+2024-11-12 16:22:44.319 CST [5802] ERROR:  syntax error at or near "\" at character 9
+2024-11-12 16:22:44.319 CST [5802] STATEMENT:  EXPLAIN \c home_maintenance
+	;
